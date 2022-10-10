@@ -5,7 +5,16 @@ public abstract class Bebidas {
     
     protected String nome;
     protected float preco;
+    protected String cor;
     protected String mesa_name;
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor
+    }
 
     public String getNome() {
         return nome;
