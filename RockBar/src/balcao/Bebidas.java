@@ -12,9 +12,7 @@ public abstract class Bebidas {
         return cor;
     }
 
-    public void setCor(String cor) {
-        this.cor = cor
-    }
+    public void setCor(String cor) { this.cor = cor; }
 
     public String getNome() {
         return nome;
